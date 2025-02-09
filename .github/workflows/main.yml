@@ -43,7 +43,7 @@ jobs:
         rm -rf ./bin/Release-x64/*.pdb
       
     - name: Upload Akebi-GC latest artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@latest
       with:
         name: Akebi-GC-release
         path: ./bin/Release-x64/*
